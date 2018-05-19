@@ -1,0 +1,293 @@
+/* general nav bar*/ 
+body{
+    background-image: url(../images/stardust.png)!important;
+    
+}
+
+#main_page{
+    width: 100%;
+}
+
+    #navigation{
+        background: #c3c3c3;
+        width: 100%;
+        position: fixed;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        top: 0;
+        z-index: 5;
+    }
+
+        #navbar{
+                width: 80%;
+                margin:   auto;
+                overflow: auto;
+            }
+
+            .myName{
+                overflow: auto;
+                background-color: #276a85!important;
+                width: 150px;
+                padding: 10px;
+                height: 50px;
+                
+            }
+            .myName h2{
+                float: left;
+                display: block;
+                padding: 20px 10px ;
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 1em;
+                 
+
+                
+            }
+
+            #navbar #menu{
+                float: right;
+                width: 35%;
+                padding: 10px 0;
+                margin-top: -60px;
+            }
+
+                #menu li{
+                    float: left;
+                    margin-left: 70px;
+                    list-style: none;
+                    
+                }
+
+                    #menu li a{
+                        display: block;
+                        padding: 8px 10px;
+                        margin-right:-20px; 
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        font-size: 1em;
+                        text-decoration: none;
+                        color: #000f;
+                        
+                    }
+
+                    a:link {
+                        color:#fff;
+                    }
+                    
+                    /* visited link */
+                    a:visited {
+                        color: fff;
+                    }
+                    
+                    /* mouse over link */
+                    a:hover {
+                        background-color: #276a85!important;
+                        padding: 10px;
+                        color: #fff!important;
+                    }
+                    
+                    /* selected link */
+                    a:active {
+                        color: #fff;
+                    }
+
+/* Content index.html */
+
+.content{
+    clear: both;
+    width: 80%;
+    border: 1px solid black;
+    margin:150px auto;
+    position: inherit;
+    border-radius: 5px;
+    height: auto;
+    background: #c5c5c5;
+    -webkit-box-shadow: 0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    
+    
+}
+
+   .inside_content{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 500px;
+        position: relative;
+        overflow:scroll;
+        
+    }      
+
+     .inside_content h1{ 
+            padding-top: 40px;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #276a85;
+            position: relative;
+        }
+         
+        .division{
+            border: 2px solid rgb(34, 135, 160);
+            width: 95%;
+            position: relative;
+        }
+ 
+        .imgInfo{
+            overflow: auto;
+            width: 90%;
+            margin: 30px 5%;
+            position: absolute;
+        }
+ 
+        img{
+            width: 20%;
+            height:auto;
+            float: left;
+            border-radius: 5px;
+            position: relative;
+        }
+    
+  
+        p{
+            text-align: justify!important;
+            width: 75%;
+            line-height: 1.6!important;
+            margin-left: 35px!important;
+            overflow: auto;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #153a49;
+        }  
+        
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #2b2a2a;
+            color: white;
+            -webkit-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            border-top: 5px solid #276a85
+        }
+
+            .footer p{
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                font-size: .8em!important;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                margin-left: 43%!important;
+            }
+
+
+            /* PORTFOLIO */
+
+            /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.content2{
+    clear: both;
+    width: 80%;
+    margin:110px auto;
+    position: inherit;
+    border-radius: 5px;
+    height:600px;
+    background: #c5c5c5;
+    overflow: auto!important;
+    -webkit-box-shadow: 0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+}
+
+.content2 .inside_content{
+    height: 600px;
+}
+
+.imgInfo_port{
+    margin-top: 30px;
+    margin-left:170px; 
+    overflow: auto!important;
+}
+
+/*Contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#276a85;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#5b98b1;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border: 1px solid black;
+}
