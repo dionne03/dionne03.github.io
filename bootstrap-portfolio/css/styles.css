@@ -1,0 +1,162 @@
+body{
+    background-image: url(../images/stardust.png)!important;
+    
+}
+
+h2{
+    color: #276a85;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+hr{
+    border: 2px solid rgb(34, 135, 160);
+    width: 95%;
+    position: relative;
+    margin-top: -40px;
+}
+
+.navbar_style{
+    background: #c3c3c3!important;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+}
+
+    .navbar_style .myName{
+        background: #276a85!important;
+        padding: 15px;
+        margin-left: 10%;
+        color: #fff;
+        height: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.menu{
+        margin-right: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+}    
+
+    .menu ul li a{
+        margin-right: 50px;
+        font-weight: bold;
+    }
+
+    /* ====== NAVBAR ENDS ===*/
+
+    /* ====== ABOUT ME =====*/
+.content{
+    background: #c5c5c5;
+    width: 80%;
+    margin-top: 150px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+    margin-bottom: 20px;
+}
+
+    .aboutMeRow{
+        padding: 50px;
+    }
+
+    /* ===== PORTFOLIO ===== */
+
+    .portfolioRow{
+        padding: 50px;
+    }
+
+        .portfolioImage:hover{
+            opacity: 10!important;
+        }
+
+        .portfolioImage{
+            opacity: 0.8; 
+            cursor: pointer;
+        }
+
+        form{
+            background: #276a85;
+            padding: 20px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        .subject{
+            height: 150px;
+        }
+
+    /* ===== CONTACT ===== */
+
+    .contact{
+        margin-bottom: 100px;
+        height: 550px;
+    }
+
+        .contact label{
+            color: #fff;
+        }
+
+    .submitbtn{
+        background: #c5c5c5;
+        border: none;
+        color: #276a85;
+    }  
+    
+    .submitbtn:hover{
+        background: #152329
+    }
+
+
+    /* ==== FOOTER ===== */
+    .footer{
+        background-color: #2b2a2a;
+            color: white;
+            -webkit-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            border-top: 5px solid #276a85;
+            height: 40px;
+            padding-top: 5px;
+    }
+
+
+    
+    
+
+    /*-- =======================================
+    ============= MEDIA QUERIES ================
+    ===========================================*/
+     /*Small devices (landscape phones, 576px and up)*/
+    
+ @media (max-width: 576px) { 
+    .navbar_style .myName{
+        margin-left: -18px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .aboutMeRow{
+        padding: 10px;
+    }
+
+    .portfolioRow{
+        padding: 10px;
+    }
+
+    .portfolioRow div{
+        width: 550px;
+    }
+
+        .portfolioRow div img{
+            margin-top: 15px;
+            
+        }
+
+ }    
+    
