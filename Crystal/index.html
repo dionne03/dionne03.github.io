@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <!-- My css -->
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <!-- Boostrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+   
+</head>
+<body>
+
+    <div class="page-header">
+        <center><h1>
+            Crystal Collector
+        </h1></center>
+    </div>
+    <div class="container-fluid containerStyle">
+
+            <div class="row targetScore">
+                    <div class="col-md-6 col-sm-6 col-xs-12"><h2>Target:&nbsp;<span id="target"> </span></h2></div>
+                    <div class="col-md-6 col-sm-6 col-xs-12" ><h2>Your Score:&nbsp;<span id="score">0</span></h2></div>
+                </div>
+
+        <div class="row winLose" >
+            <div class="col-md-6"><h2>Wins:&nbsp;<span id="wins"> </span></h2></div>
+            <div class="col-md-6"><h2>Loses:&nbsp;<span id="loses"> </span></h2></div>
+        </div>
+            <hr>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 crystal" id="pink">
+                <img src="assets/imgs/pink.jpg" class="img-responsive img-size ">
+            </div>
+            <div class="col-md-3 col-sm-6 crystal" id="purple">
+                <img src="assets/imgs/purple.jpg" class="img-responsive img-size">
+            </div>
+            <div class="col-md-3 col-sm-6 crystal" id="silver">
+                <img src="assets/imgs/silver.jpg" class="img-responsive iimg-size">
+            </div>
+            <div class="col-md-3 col-sm-6 crystal" id="yellow">
+                <img src="assets/imgs/yellow.jpg" class="img-responsive img-size">
+            </div>
+        </div>
+
+        
+        <hr>
+        <button id="newGame" class="btn btn-default btn-lg resetGame">New Game</button>
+       
+    </div>   
+    
+
+
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+    <script src="assets/code.js"></script>
+</body>
+</html>
