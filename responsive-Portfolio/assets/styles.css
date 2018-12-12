@@ -1,0 +1,562 @@
+/* general nav bar*/ 
+body{
+    background-image: url(../images/stardust.png)!important;
+    
+}
+
+#main_page{
+    width: 100%;
+}
+
+    #navigation{
+        background: #c3c3c3;
+        width: 100%;
+        position: fixed;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 5px 15px 0px rgba(50, 50, 50, 0.75);
+        top: 0;
+        z-index: 5;
+        
+    }
+
+        #navbar{
+                width: 100%;
+                margin:   auto;
+                overflow: auto;
+            }
+
+            .myName{
+                overflow: auto;
+                background-color: #276a85!important;
+                width: 150px;
+                padding: 10px;
+                height: 50px;
+                margin-left: 10%;
+                
+            }
+            .myName h2{
+                float: left;
+                display: block;
+                padding: 20px 10px ;
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 1em;
+                 
+
+                
+            }
+
+            #navbar #menu{
+                float: right;
+                width: 35%;
+                padding: 10px 0;
+                margin-top: -60px;
+                margin-right: 10%;
+            }
+
+                #menu li{
+                    float: left;
+                    margin-left: 70px;
+                    list-style: none;
+                    
+                }
+
+                    #menu li a{
+                        display: block;
+                        padding: 8px 10px;
+                        margin-right:-20px; 
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        font-size: 1em;
+                        text-decoration: none;
+                        color: #000f;
+                        
+                    }
+
+                    a:link {
+                        color:#fff;
+                    }
+                    
+                    /* visited link */
+                    a:visited {
+                        color: fff;
+                    }
+                    
+                    /* mouse over link */
+                    a:hover {
+                        background-color: #276a85!important;
+                        padding: 10px;
+                        color: #fff!important;
+                    }
+                    
+                    /* selected link */
+                    a:active {
+                        color: #fff;
+                    }
+
+/* Content index.html */
+
+.content{
+    clear: both;
+    width: 80%;
+    border: 1px solid black;
+    margin:70px auto;
+    position: inherit;
+    border-radius: 5px;
+    height: auto;
+    background: #c5c5c5;
+    -webkit-box-shadow: 0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    
+    
+}
+
+   .inside_content{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 500px;
+        position: relative;
+        overflow:scroll;
+        
+    }      
+
+     .inside_content h1{ 
+            padding-top: 40px;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #276a85;
+            position: relative;
+        }
+         
+        .division{
+            border: 2px solid rgb(34, 135, 160);
+            width: 95%;
+            position: relative;
+        }
+ 
+        .imgInfo{
+            overflow: auto;
+            width: 90%;
+            margin: 30px 5%;
+            position: absolute;
+        }
+ 
+        img{
+            width: 20%;
+            height:auto;
+            float: left;
+            border-radius: 5px;
+            position: relative;
+        }
+    
+  
+        p{
+            text-align: justify!important;
+            width: 75%;
+            line-height: 1.6!important;
+            margin-left: 35px!important;
+            overflow: auto;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #153a49;
+        }  
+        
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #2b2a2a;
+            color: white;
+            -webkit-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px -5px 13px 0px rgba(50, 50, 50, 0.75);
+            border-top: 5px solid #276a85
+        }
+
+            .footer p{
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                font-size: .8em!important;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                margin-left: 43%!important;
+            }
+
+
+            /* PORTFOLIO */
+
+            /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.content2{
+    clear: both;
+    width: 80%;
+    margin:110px auto;
+    position: inherit;
+    border-radius: 5px;
+    height:600px;
+    background: #c5c5c5;
+    overflow: auto!important;
+    -webkit-box-shadow: 0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 3px 28px 0px rgba(50, 50, 50, 0.75);
+}
+
+.content2 .inside_content{
+    height: 600px;
+}
+
+.imgInfo_port{
+    margin-top: 30px;
+    margin-left:170px; 
+    overflow: auto!important;
+}
+
+    .imgInfo_port img{
+        width: 85%!important;
+    }
+
+/*Contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#276a85;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#5b98b1;
+}
+
+.containerContact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+/* ========= NAVIGATION TOGGLE ======== */
+
+
+
+/* ====== NAVIGATION TOGGLE END ====== */
+
+
+/* RESPONSIVE MEDIA QUERIES */
+
+/*big*/
+@media screen and (max-width: 1380px) {
+   
+    
+
+/* === CONTENT PORTFOLIO === */
+
+    .imgInfo_port{
+        margin: 0 auto!important;
+    }
+
+        .imgInfo_port img{
+            margin: 0 60%!important;
+        }
+}
+
+/* === CONTENT PORTFOLIO END === */
+
+/*big - medium*/
+@media screen and (max-width: 1090px) {
+
+    /* === NAVIGATION === */
+    #menu{
+        width: 47%!important;
+        margin-right: 10%!important;
+    }    
+    /* === NAVIGATION END=== */
+
+    /* === CONTENT INDEX === */
+    .inside_content{
+        width: 100%;
+       
+    }
+
+    .inside_content .imgInfo {
+        width: 100%;
+        margin: 0px auto;
+        height: 90%;
+        padding: 5%;
+    }
+
+        .inside_content img{
+
+        }
+
+        .inside_content p{
+            padding-left: 10px!important;
+            width: 70%;
+            float: none;
+           
+        }
+
+    /* === CONTENT INDEX END === */
+
+    /* === CONTENT PORTFOLIO === */
+
+    .imgInfo_port{
+        margin: 0 auto!important;
+    }
+
+        .imgInfo_port img{
+            width: 160px!important;;
+            margin: 0 35%!important;
+        }
+    /* === CONTENT PORTFOLIO END === */
+
+    /* === CONTENT CONTACT === */
+
+   .containerContact{
+        width: 80%;
+    }
+
+    /* === CONTENT CONTACT END === */
+
+}
+
+/*medium*/
+@media screen and (max-width: 850px) {
+    
+    /* === NAVIGATION === */
+    #menu{
+        width: 55%!important;
+        overflow: auto;
+    }  
+    /* === NAVIGATION END === */
+
+    /* === CONTENT PORTFOLIO === */
+
+    .imgInfo_port{
+        margin: 0 auto!important;
+    }
+
+        .imgInfo_port img{
+            width: 145px!important;
+            margin: 0 25%!important;
+        }
+    /* === CONTENT PORTFOLIO END === */
+    
+}
+
+/*medium - small*/
+@media screen and (max-width: 710px) {
+    
+
+    /* === NAVIGATION === */
+    #menu{
+        margin-right: 0!important;
+        width: 70%!important;
+    } 
+    
+    .myName{
+        margin-left: 0;
+        width: 130px;
+    }
+        .myName h2{
+            width: 100%;
+            margin-left: -10px;
+        }
+
+        #menu li{
+            overflow: auto;
+            width: 30%;
+            margin-left: 10px;
+        }
+
+            #menu li a{
+                margin-left: 10px!important;
+            }
+    /* === NAVIGATION END === */  
+
+    /* === CONTENT INDEX === */
+    .content{
+        margin-top: 25px;
+        width: 90%;
+    }
+    
+    .inside_content{
+        overflow: none;
+        height: 630px;
+    }
+
+        .imgInfo{
+            height: 470px!important;
+        }
+
+            .imgInfo img{
+                float: none;
+                margin-left: 28%;
+                margin-top: -20px;
+                width: 120px;
+            }
+
+            .imgInfo p{
+                float: none;
+                width: 95%;
+                margin-left: -18px!important;
+                overflow: none;
+                height: auto;
+            }
+
+
+     /* === CONTENT INDEX END === */
+
+    /* === CONTENT PORTFOLIO === */
+   
+    .imgInfo_port{
+        margin: 0 auto!important;
+    }
+
+        .imgInfo_port img{
+            width: 110px!important;
+            margin: 0 -18px!important;
+        }
+    /* === CONTENT PORTFOLIO END === */
+
+     /* === CONTENT CONTACT === */
+
+   .containerContact{
+    width: 77%;
+    margin-left: -10px;
+}
+
+/* === CONTENT CONTACT END === */
+   
+    
+}  
+
+/*small*/
+@media screen and (max-width: 481px) {
+   
+
+    /* === NAVIGATION === */
+        .myName{
+            width: 100%!important;
+            float: none!important;
+        }
+
+            .myName h2{
+                text-emphasis: center;
+                float: none!important;
+                margin: -5px 20% 0 20%;
+                font-size: 1.5em;    
+            }
+
+    #menu{
+        width: 100%!important;
+        float: none!important;
+        margin-top:0px!important; 
+        text-align: center!important;
+    } 
+
+        #menu li a{
+            margin-right: 10px;
+        }
+    /* === NAVIGATION END === */ 
+    
+     /* === CONTENT INDEX === */
+        .content{
+            margin-top: 70px;
+        }
+    /* === CONTENT INDEX END === */
+
+    /* === CONTENT PORTFOLIO === */
+    .content2{
+        margin-top: 145px;
+    }
+    
+    .imgInfo_port{
+        margin: 0 auto!important;
+    }
+
+        .imgInfo_port img{
+            width: 260px!important;
+            margin: 0 -80px!important;
+        }
+
+        .column{
+            margin-left: 100px;
+        }
+    /* === CONTENT PORTFOLIO END === */
+
+
+}
+    
+    
+
+
+
+    
+  
+    
+   
